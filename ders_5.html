@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat Formu</title>
+</head>
+<body>
+
+    <h2>İstifadəçi Qeydiyyatı: Dərs 5 in Kodları </h2>
+
+    <form action="" method="post">
+        <label for="ad">Ad:</label><br>
+        <input type="text" id="ad" name="ad"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="shifre">Şifrə:</label><br>
+        <input type="password" id="shifre" name="shifre"><br><br>
+        <label for="yash">Yaş:</label><br>
+        <input type="number" id="yash" name="yash" min="0"><br><br>
+        <label for="dogum_tarixi">Doğum tarixi:</label><br>
+        <input type="date" id="dogum_tarixi" name="dogum_tarixi"><br><br>
+        <label for="haqqinda">Haqqında:</label><br>
+        <textarea id="haqqinda" name="haqqinda" rows="5" cols="40" placeholder="Özünüz haqqında qısa məlumat yazın..."></textarea><br><br>
+        <label>Şəhər seçimi:</label><br>
+        <input type="checkbox" id="baki" name="sheher" value="Baki">
+        <label for="baki">Bakı</label><br>
+        <input type="checkbox" id="gence" name="sheher" value="Gence">
+        <label for="gence">Gəncə</label><br>
+        <input type="checkbox" id="sumqayit" name="sheher" value="Sumqayit">
+        <label for="sumqayit">Sumqayıt</label><br><br>
+        <label>Cins:</label><br>
+        <input type="radio" id="kishi" name="cins" value="Kishi">
+        <label for="kishi">Kişi</label><br>
+        <input type="radio" id="qadin" name="cins" value="Qadin">
+        <label for="qadin">Qadın</label><br><br>
+        <label>Maraqlar:</label><br>
+        <input type="checkbox" id="idman" name="maraqlar" value="Idman">
+        <label for="idman">İdman</label><br>
+        <input type="checkbox" id="musiqi" name="maraqlar" value="Musiqi">
+        <label for="musiqi">Musiqi dinləmək</label><br>
+        <input type="checkbox" id="kino" name="maraqlar" value="Kino">
+        <label for="kino">Kino və filmlər</label><br><br>
+        <button type="submit">Göndər</button>
+        <button type="reset">Təmizlə</button>
+    </form>
+
+</body>
+</html>
